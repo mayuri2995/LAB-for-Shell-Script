@@ -42,7 +42,8 @@ then
 echo "Hello $name , thanks for the information "
 exit 1
 fi
-
+if [[ $first_char_name = "d" && $last_char_actor = "r" && $lucky -eq 7 && $no_of_char    acters_dish -ge 6 ]]
+then
 echo "Hello Secret Agent ....Our next Operation is "
 echo "We have to kill atleast 10 terrorist because they are harmfull to country "
 else
